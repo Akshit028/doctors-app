@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Doctors</h1>
+    </div>
+    <div class="doctors-container">
+        <div class="inner-doctors-container">
+                <h2 class="contact-info">Registered Doctors</h2>
+                <div class="card">
+                    <div class="profile-section">
+                        <div class="profile-pic-container">
+                            <img src="assets/elon.png" alt="Doctor's profile picture" class="profile-pic">
+                            <div class="video-icon">
+                                <img src="assets/vc.png"
+                                    alt="Video call icon" width="16" height="16">
+                            </div>
+                        </div>
+                        <div class="doctor-info">
+                            <h1>Dr. Elon Musk</h1>
+                            <p>MBBS, MD, DM</p>
+
+                            <div class="next-slot">
+                                <img src="assets/noun_weighing-scale_2532008.png"
+                                    alt="Clock icon" class="clock-icon">
+                                Next Slot: 11:00 AM
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-section">
+                        <div class="experience">
+                            <h2>Experience</h2>
+                            <p class="years">12.5 Years</p>
+                        </div>
+
+                        <div class="fees">
+                            <h2>Fees</h2>
+                            <div class="fee-row">
+                                <span><img src="assets/₹.png" alt=""></span>
+                                <span class="rupee">1500</span>
+                                <span class="consult-type">Online Consult</span>
+                            </div>
+                            <div class="fee-row">
+                                <span><img src="assets/₹.png" alt=""></span>
+                                <span class="rupee">2000</span>
+                                <span class="consult-type">In-Person Consult</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="book-btn">Book Appointment</button>
+
+                    <div class="trash-icon">
+                        <img src="/assets/delete.png"
+                            alt="Trash icon">
+                    </div>
+                </div>
+                <div id="doctorsList"></div>
+                <div class="doctors-btn-container">
+                    <button class="load-more" type="submit">Load More</button>
+                    <button class="go-to-home" type="submit" onclick="window.location.href='/'">Go to home</button>
+                </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

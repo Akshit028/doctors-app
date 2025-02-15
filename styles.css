@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/* Root */
+
+.main {
+    background-color: #090C28;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.heading {
+    color: #fff;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.hero-container {
+    width: 400px;
+    height: 600px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.hero {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    right: 15%;
+}
+
+.register-btn {
+    width: 300px;
+    padding: 14px;
+    border-radius: 50px;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    cursor: pointer;
+    background-color: #00836C;
+    color: #fff;
+}
+
+.register-btn:hover {
+    opacity: 90%;
+}
+
+.login-btn {
+    width: 300px;
+    padding: 14px;
+    border-radius: 50px;
+    border: 3px solid #00836C;
+    font-size: 25px;
+    font-weight: bold;
+    color: #00836C;
+    margin-bottom: 80px;
+    cursor: pointer;
+}
+
+
+.login-btn:hover {
+    opacity: 90%;
+}
+
+.view-btn {
+    width: 300px;
+    padding: 14px;
+    border-radius: 50px;
+    border: 3px solid #00836C;
+    font-size: 25px;
+    font-weight: bold;
+    color: #00836C;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.view-btn:hover {
+    opacity: 90%;
+}
+
+/* Register Page */
+
+.header {
+    background: #090C28;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-info {
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.registration-container {
+    background-color: #F1F1F1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-reg-container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+
+}
+
+.form-content {
+    margin-bottom: 20px;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+}
+
+.input-icon {
+    position: absolute;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.input-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.input-icon:hover {
+    opacity: 80%;
+}
+
+
+.register-label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #090C28;
+    border-radius: 8px;
+    font-size: 16px;
+    position: relative;
+}
+
+
+
+.add-another-btn {
+    border: 2px solid #00836C;
+    color: #00836C;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.add-another-btn:hover {
+    opacity: 80%;
+}
+
+.register-submit {
+    background: #00836C;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.register-submit:hover {
+    opacity: 90%;
+}
+
+/*Login Page*/
+.login-header {
+    background: #090C28;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    background-color: #F1F1F1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 830px;
+}
+
+.inner-login-container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.login-form {
+    margin-bottom: 20px;
+}
+
+/*Success Page*/
+
+.success-container {
+    background-color: #F1F1F1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    height: 830px;
+}
+
+.inner-success-container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.success-form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.go-to-login {
+
+    background: #00836C;
+    color: white;
+    border: none;
+    padding: 10px 50px 10px 50px;
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.go-to-login:hover {
+    opacity: 90%;
+}
+
+.go-to-home {
+    border: 2px solid #00836C;
+    color: #00836C;
+    padding: 10px 50px 10px 50px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.go-to-home:hover {
+    opacity: 80%;
+}
+
+/*Doctors Page*/
+
+.doctors-container {
+    background-color: #F1F1F1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.inner-doctors-container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.doctors-form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.load-more {
+    border: 2px solid #00836C;
+    color: #00836C;
+    padding: 10px 50px 10px 50px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.load-more:hover {
+    opacity: 80%;
+}
+
+.doctors-btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 700px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic-container {
+    position: relative;
+    margin-right: 20px;
+}
+
+.profile-pic {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 3px solid #C06B69;
+}
+
+.video-icon {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-icon img{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+.doctor-info h1 {
+    font-size: 28px;
+    margin: 0 0 5px 0;
+}
+
+.doctor-info p {
+    font-size: 22px;
+    color: #666;
+    margin: 0;
+}
+
+.next-slot {
+    display: inline-flex;
+    align-items: center;
+    background-color: #E5E7EB;
+    border-radius: 25px;
+    padding: 10px ;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.next-slot img{
+    height: 30px;
+}
+
+.clock-icon {
+    margin-right: 10px;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 20px; 
+
+}
+
+.experience {
+    flex: 1;
+    width: 30%;
+}
+.fees {
+    width: 70%;
+}
+.experience h2{
+    font-weight: 400;
+}
+.experience p{
+    font-weight: 400;
+}
+
+.years {
+    font-size: 24px;
+    font-weight: 400;
+}
+.fees h2{
+    font-weight: 400;
+}
+.fee-row {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.fee-row span img{
+    margin-top: 5px;
+    width: 15px;
+}
+
+.rupee {
+    font-size: 24px;
+    font-weight: 400;
+    margin-right: 15px;
+}
+
+.consult-type {
+    font-size: 18px;
+    color: #666;
+}
+
+.book-btn {
+    background-color: #499B2F;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 22px;
+    padding: 15px;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.book-btn:hover{
+    opacity: 90%;
+}
+
+.trash-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    opacity: 0.4;
+    cursor: pointer;
+    
+}
+.trash-icon img{
+    width: 20px;
+}
+
+
+.error {
+    color: #d32f2f;
+    font-size: 14px;
+    margin-top: 5px;
+    display: block;
+}
